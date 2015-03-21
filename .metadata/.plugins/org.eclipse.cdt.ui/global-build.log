@@ -1,0 +1,172 @@
+17:43:27 **** Build of configuration Debug for project StacsHack2015 ****
+make all 
+Building file: ../data.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"data.d" -MT"data.d" -o "data.o" "../data.cpp"
+../data.cpp:18:41: error: cannot pass object of non-POD type 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') through variadic function; call will abort at runtime [-Wnon-pod-varargs]
+                                curl_easy_setopt(curl, CURLOPT_URL, link);
+                                                                    ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/include/curl/curl.h:2318:72: note: expanded from macro 'curl_easy_setopt'
+#define curl_easy_setopt(handle,opt,param) curl_easy_setopt(handle,opt,param)
+                                                                       ^
+1 error generated.
+make: *** [data.o] Error 1
+17:45:41 **** Incremental Build of configuration Debug for project StacsHack2015 ****
+make all 
+Building file: ../casablanca/Release/tests/Functional/websockets/utilities/stdafx.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"casablanca/Release/tests/Functional/websockets/utilities/stdafx.d" -MT"casablanca/Release/tests/Functional/websockets/utilities/stdafx.d" -o "casablanca/Release/tests/Functional/websockets/utilities/stdafx.o" "../casablanca/Release/tests/Functional/websockets/utilities/stdafx.cpp"
+In file included from ../casablanca/Release/tests/Functional/websockets/utilities/stdafx.cpp:22:
+../casablanca/Release/tests/Functional/websockets/utilities/stdafx.h:30:10: fatal error: 'cpprest/xxpublic.h' file not found
+#include "cpprest/xxpublic.h"
+         ^
+1 error generated.
+make: *** [casablanca/Release/tests/Functional/websockets/utilities/stdafx.o] Error 1
+17:47:29 **** Incremental Build of configuration Debug for project StacsHack2015 ****
+make all 
+Building file: ../data.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"data.d" -MT"data.d" -o "data.o" "../data.cpp"
+../data.cpp:18:41: error: cannot pass object of non-POD type 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') through variadic function; call will abort at runtime [-Wnon-pod-varargs]
+                                curl_easy_setopt(curl, CURLOPT_URL, link);
+                                                                    ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/include/curl/curl.h:2318:72: note: expanded from macro 'curl_easy_setopt'
+#define curl_easy_setopt(handle,opt,param) curl_easy_setopt(handle,opt,param)
+                                                                       ^
+1 error generated.
+make: *** [data.o] Error 1
+17:48:22 **** Incremental Build of configuration Debug for project StacsHack2015 ****
+make all 
+Building file: ../data.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"data.d" -MT"data.d" -o "data.o" "../data.cpp"
+../data.cpp:18:41: error: cannot pass object of non-POD type 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') through variadic function; call will abort at runtime [-Wnon-pod-varargs]
+                                curl_easy_setopt(curl, CURLOPT_URL, link);
+                                                                    ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/include/curl/curl.h:2318:72: note: expanded from macro 'curl_easy_setopt'
+#define curl_easy_setopt(handle,opt,param) curl_easy_setopt(handle,opt,param)
+                                                                       ^
+1 error generated.
+make: *** [data.o] Error 1
+17:48:26 **** Incremental Build of configuration Debug for project StacsHack2015 ****
+make all 
+Building file: ../data.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"data.d" -MT"data.d" -o "data.o" "../data.cpp"
+../data.cpp:18:41: error: cannot pass object of non-POD type 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') through variadic function; call will abort at runtime [-Wnon-pod-varargs]
+                                curl_easy_setopt(curl, CURLOPT_URL, link);
+                                                                    ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/include/curl/curl.h:2318:72: note: expanded from macro 'curl_easy_setopt'
+#define curl_easy_setopt(handle,opt,param) curl_easy_setopt(handle,opt,param)
+                                                                       ^
+1 error generated.
+make: *** [data.o] Error 1
+17:48:29 **** Incremental Build of configuration Debug for project StacsHack2015 ****
+make all 
+Building file: ../data.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"data.d" -MT"data.d" -o "data.o" "../data.cpp"
+../data.cpp:18:41: error: cannot pass object of non-POD type 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') through variadic function; call will abort at runtime [-Wnon-pod-varargs]
+                                curl_easy_setopt(curl, CURLOPT_URL, link);
+                                                                    ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/include/curl/curl.h:2318:72: note: expanded from macro 'curl_easy_setopt'
+#define curl_easy_setopt(handle,opt,param) curl_easy_setopt(handle,opt,param)
+                                                                       ^
+1 error generated.
+make: *** [data.o] Error 1
+17:49:31 **** Incremental Build of configuration Debug for project StacsHack2015 ****
+make all 
+Building file: ../data.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"data.d" -MT"data.d" -o "data.o" "../data.cpp"
+Finished building: ../data.cpp
+ 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: StacsHack2015
+Invoking: Cross G++ Linker
+g++  -o "StacsHack2015"  ./data.o ./main.o   
+Undefined symbols for architecture x86_64:
+  "data::getRequest(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >)", referenced from:
+      _main in main.o
+  "_curl_easy_cleanup", referenced from:
+      getRequest(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in data.o
+  "_curl_easy_init", referenced from:
+      getRequest(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in data.o
+  "_curl_easy_perform", referenced from:
+      getRequest(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in data.o
+  "_curl_easy_setopt", referenced from:
+      getRequest(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in data.o
+  "_curl_easy_strerror", referenced from:
+      getRequest(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in data.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [StacsHack2015] Error 1
+17:50:21 **** Incremental Build of configuration Debug for project StacsHack2015 ****
+make all 
+Building target: StacsHack2015
+Invoking: Cross G++ Linker
+g++  -o "StacsHack2015"  ./data.o ./main.o   
+Undefined symbols for architecture x86_64:
+  "data::getRequest(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >)", referenced from:
+      _main in main.o
+  "_curl_easy_cleanup", referenced from:
+      getRequest(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in data.o
+  "_curl_easy_init", referenced from:
+      getRequest(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in data.o
+  "_curl_easy_perform", referenced from:
+      getRequest(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in data.o
+  "_curl_easy_setopt", referenced from:
+      getRequest(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in data.o
+  "_curl_easy_strerror", referenced from:
+      getRequest(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in data.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [StacsHack2015] Error 1
+18:00:42 **** Incremental Build of configuration Debug for project StacsHack2015 ****
+make all 
+Building target: StacsHack2015
+Invoking: Cross G++ Linker
+g++  -o "StacsHack2015"   
+clang: error: no input files
+make: *** [StacsHack2015] Error 1
+18:00:42 **** Build of configuration Debug for project StacsHackk2015 ****
+make all 
+Building file: ../src/StacsHackk2015.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/StacsHackk2015.d" -MT"src/StacsHackk2015.d" -o "src/StacsHackk2015.o" "../src/StacsHackk2015.cpp"
+Finished building: ../src/StacsHackk2015.cpp
+ 
+Building file: ../src/data.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/data.d" -MT"src/data.d" -o "src/data.o" "../src/data.cpp"
+Finished building: ../src/data.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: StacsHackk2015
+Invoking: Cross G++ Linker
+g++  -o "StacsHackk2015"  ./src/StacsHackk2015.o ./src/data.o ./src/main.o   
+Undefined symbols for architecture x86_64:
+  "data::getRequest(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >)", referenced from:
+      _main in StacsHackk2015.o
+      _main in main.o
+  "_curl_easy_cleanup", referenced from:
+      getRequest(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in data.o
+  "_curl_easy_init", referenced from:
+      getRequest(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in data.o
+  "_curl_easy_perform", referenced from:
+      getRequest(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in data.o
+  "_curl_easy_setopt", referenced from:
+      getRequest(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in data.o
+  "_curl_easy_strerror", referenced from:
+      getRequest(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in data.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [StacsHackk2015] Error 1

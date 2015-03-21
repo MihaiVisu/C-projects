@@ -1,0 +1,40 @@
+18:00:42 **** Build of configuration Debug for project StacsHackk2015 ****
+make all 
+Building file: ../src/StacsHackk2015.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/StacsHackk2015.d" -MT"src/StacsHackk2015.d" -o "src/StacsHackk2015.o" "../src/StacsHackk2015.cpp"
+Finished building: ../src/StacsHackk2015.cpp
+ 
+Building file: ../src/data.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/data.d" -MT"src/data.d" -o "src/data.o" "../src/data.cpp"
+Finished building: ../src/data.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: StacsHackk2015
+Invoking: Cross G++ Linker
+g++  -o "StacsHackk2015"  ./src/StacsHackk2015.o ./src/data.o ./src/main.o   
+Undefined symbols for architecture x86_64:
+  "data::getRequest(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >)", referenced from:
+      _main in StacsHackk2015.o
+      _main in main.o
+  "_curl_easy_cleanup", referenced from:
+      getRequest(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in data.o
+  "_curl_easy_init", referenced from:
+      getRequest(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in data.o
+  "_curl_easy_perform", referenced from:
+      getRequest(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in data.o
+  "_curl_easy_setopt", referenced from:
+      getRequest(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in data.o
+  "_curl_easy_strerror", referenced from:
+      getRequest(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in data.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [StacsHackk2015] Error 1
+
+18:00:43 Build Finished (took 643ms)
+

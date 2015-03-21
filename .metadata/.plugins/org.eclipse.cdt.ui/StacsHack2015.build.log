@@ -1,0 +1,10 @@
+18:00:42 **** Incremental Build of configuration Debug for project StacsHack2015 ****
+make all 
+Building target: StacsHack2015
+Invoking: Cross G++ Linker
+g++  -o "StacsHack2015"   
+clang: error: no input files
+make: *** [StacsHack2015] Error 1
+
+18:00:42 Build Finished (took 63ms)
+
